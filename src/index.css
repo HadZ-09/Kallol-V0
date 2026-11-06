@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme {
+  --animate-blink: blink 1s step-end infinite;
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
