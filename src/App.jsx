@@ -7,9 +7,9 @@ import Project from './ProjectSection.jsx'
 function App() {
   return (
     <>
-    {/* <LizardBackground></LizardBackground> */}
+    <LizardBackground></LizardBackground>
   
-    {/* <Header></Header> */}
+    <Header></Header>
 
  
     <TopBody></TopBody>
